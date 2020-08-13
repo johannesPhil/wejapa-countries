@@ -43,6 +43,7 @@
               class="form__el"
               @change="selectCountry($event)"
             >
+              <option value="">Country</option>
               <option
                 :value="country.name"
                 v-for="country in countryList"
